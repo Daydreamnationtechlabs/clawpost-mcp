@@ -36,6 +36,7 @@ Add to your MCP settings (`.cursor/mcp.json` or global settings):
 {
   "mcpServers": {
     "clawpost": {
+      "type": "http",
       "url": "https://mcp.clawpost.net/mcp"
     }
   }

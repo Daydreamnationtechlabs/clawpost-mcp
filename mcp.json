@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "clawpost": {
+      "type": "http",
       "url": "https://mcp.clawpost.net/mcp"
     }
   }

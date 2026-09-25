@@ -8,6 +8,32 @@
   "homepage": "https://clawpost.net",
   "cloudEndpoint": "https://mcp.clawpost.net/mcp",
   "tags": ["social", "posting", "twitter", "linkedin", "facebook", "instagram", "tiktok", "reddit"],
+  "tools": [
+    {
+      "name": "list_platforms",
+      "description": "Platforms available to your paired Chrome"
+    },
+    {
+      "name": "create_post",
+      "description": "Publish a post (text, optional media)"
+    },
+    {
+      "name": "create_reddit_comment",
+      "description": "Comment on a Reddit post or comment URL"
+    },
+    {
+      "name": "get_upload_url",
+      "description": "Signed upload URL for media"
+    },
+    {
+      "name": "get_post_status",
+      "description": "Poll a job; returns the live post URL on success"
+    },
+    {
+      "name": "get_account_status",
+      "description": "Pairing and account status"
+    }
+  ],
   "localizations": [
     {
       "locale": "zh-CN",
