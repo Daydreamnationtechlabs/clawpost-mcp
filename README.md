@@ -1,4 +1,4 @@
-<![CDATA[<p align="center">
+<p align="center">
   <img src="logo.png" alt="Claw Post" width="200" height="200" />
 </p>
 
@@ -100,11 +100,6 @@ The extension waits for jobs, executes them in the context of your logged-in tab
 - No platform API keys required or stored
 - Report security issues to human@daydreamnation.io
 
-## Not affiliated with clawpost.dev
-
-Claw Post (clawpost.net) is not affiliated with clawpost.dev, which is a different product.
-
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
-]]>
