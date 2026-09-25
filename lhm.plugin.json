@@ -1,0 +1,18 @@
+{
+  "identifier": "daydreamnationtechlabs-clawpost",
+  "name": "Claw Post",
+  "version": "1.0.0",
+  "description": "The third path for agent social posting: your agent calls our MCP and your own logged-in desktop Chrome publishes. No platform API keys. X, LinkedIn, Facebook, TikTok, Instagram, Reddit comments.",
+  "author": "Daydream Nation Tech Labs",
+  "authorUrl": "https://github.com/Daydreamnationtechlabs",
+  "homepage": "https://clawpost.net",
+  "cloudEndpoint": "https://mcp.clawpost.net/mcp",
+  "tags": ["social", "posting", "twitter", "linkedin", "facebook", "instagram", "tiktok", "reddit"],
+  "localizations": [
+    {
+      "locale": "zh-CN",
+      "name": "Claw Post",
+      "description": "AI 智能体发帖的第三条路：智能体调用我们的 MCP，由你本机已登录的 Chrome 发布。无需平台 API 密钥。"
+    }
+  ]
+}
