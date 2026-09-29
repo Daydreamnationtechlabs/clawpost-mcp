@@ -1,0 +1,13 @@
+{
+  "name": "clawpost",
+  "version": "1.0.0",
+  "description": "Claw Post for Grok: publish to X, LinkedIn, Facebook (feed and groups you already belong to), TikTok and Instagram, and comment on Reddit, from your own logged-in desktop Chrome via our paired Chrome extension. Hosted MCP with OAuth.",
+  "author": {
+    "name": "Daydream Nation Tech Labs",
+    "url": "https://github.com/Daydreamnationtechlabs"
+  },
+  "repository": "https://github.com/Daydreamnationtechlabs/clawpost-mcp",
+  "homepage": "https://clawpost.net",
+  "license": "MIT",
+  "keywords": ["claw post", "claw-post", "social-media", "reddit", "facebook-groups", "mcp"]
+}
