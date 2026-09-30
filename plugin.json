@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "clawpost",
+  "version": "1.0.0",
+  "description": "Claw Post: your agent publishes to X, LinkedIn, Facebook (feed and groups you already belong to), TikTok and Instagram, and comments on Reddit, from your own logged-in desktop Chrome via our paired Chrome extension. Remote MCP with OAuth. No platform API keys.",
+  "author": {
+    "name": "Daydream Nation Tech Labs",
+    "url": "https://clawpost.net"
+  },
+  "homepage": "https://clawpost.net",
+  "repository": "https://github.com/Daydreamnationtechlabs/clawpost-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "agent-plugins", "agent-skills", "claw-post", "social-media", "reddit", "facebook-groups", "chrome-extension"]
+}

@@ -25,7 +25,7 @@ This is a remote MCP server. Nothing to clone or build.
 
 - `list_platforms` - Platforms available to the paired Chrome
 - `create_post` - Publish a post (text, optional media)
-- `create_reddit_comment` - Comment on a Reddit post or comment URL
+- `create_reddit_comment` - Comment on a Reddit post URL
 - `get_upload_url` - Signed upload URL for media
 - `get_post_status` - Poll a job; returns the live post URL on success
 - `get_account_status` - Pairing and account status

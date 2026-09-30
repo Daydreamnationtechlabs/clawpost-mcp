@@ -19,7 +19,7 @@
     },
     {
       "name": "create_reddit_comment",
-      "description": "Comment on a Reddit post or comment URL"
+      "description": "Comment on a Reddit post URL"
     },
     {
       "name": "get_upload_url",
