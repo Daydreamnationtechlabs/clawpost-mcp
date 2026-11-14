@@ -13,7 +13,7 @@ Your agent calls our MCP, and your own logged-in desktop Chrome publishes. No pl
 - **Chrome extension:** [Install from Chrome Web Store](https://chromewebstore.google.com/detail/clawpost/gebmgifdmnflfcehpbepkdnndkhgkchh)
 - **OpenClaw skill:** `openclaw skills install @daydreamnationtechlabs/clawpost`
 
-**Platforms:** X, LinkedIn, Facebook (feed and groups you already belong to), TikTok, Instagram, plus Reddit comments.
+**Platforms:** X, LinkedIn, Facebook (feed and groups), TikTok, Instagram. Comments/replies on X, Facebook, LinkedIn, and Reddit. LinkedIn DMs. Notification checks.
 
 ## Setup
 
@@ -71,16 +71,29 @@ Add to your MCP settings:
 }
 ```
 
-## Tools
+## Tools (17)
 
 | Tool | What it does |
 | --- | --- |
 | `list_platforms` | Platforms available to your paired Chrome |
 | `create_post` | Publish a post (text, optional media) |
-| `create_reddit_comment` | Comment on a Reddit post URL |
+| `create_reddit_comment` | Comment on a Reddit post or comment URL |
+| `create_x_reply` | Reply to any x.com status URL, including other people's posts |
+| `create_linkedin_comment` | Comment on a LinkedIn post URL |
+| `create_linkedin_message` | Send a LinkedIn DM to a 1st-degree connection (20/day) |
+| `create_facebook_comment` | Comment on a Facebook post; `comment_id=` in the URL = threaded reply |
+| `reply_to_comment` | Route a reply to the right platform tool from the target URL |
+| `join_facebook_group` | Join a Facebook group when the user asks (5/day); does not auto-join |
+| `submit_job_input` | Resume a `needs_input` job (login ack or questionnaire answers) |
+| `list_replies` | List Reddit/Facebook/LinkedIn replies already saved from a check |
+| `check_notifications` | Ask the paired browser to read notifications once |
+| `mark_reply_read` | Mark a `list_replies` row seen in Claw Post only |
+| `cancel_post` | Cancel a queued, processing, or needs_input job |
 | `get_upload_url` | Signed upload URL for media |
 | `get_post_status` | Poll a job; returns the live post URL on success |
 | `get_account_status` | Pairing and account status |
+
+Typical notifications loop: `check_notifications` → `list_replies` → `reply_to_comment` (or the platform tool) → `mark_reply_read`.
 
 ## How it works
 

@@ -21,14 +21,27 @@ This is a remote MCP server. Nothing to clone or build.
 }
 ```
 
-## Available Tools
+## Available Tools (17)
 
 - `list_platforms` - Platforms available to the paired Chrome
 - `create_post` - Publish a post (text, optional media)
-- `create_reddit_comment` - Comment on a Reddit post URL
+- `create_reddit_comment` - Comment on a Reddit post or comment URL
+- `create_x_reply` - Reply to any x.com status URL
+- `create_linkedin_comment` - Comment on a LinkedIn post URL
+- `create_linkedin_message` - LinkedIn DM to a 1st-degree connection (20/day)
+- `create_facebook_comment` - Facebook comment; `comment_id=` = threaded reply
+- `reply_to_comment` - Route a reply from the target URL
+- `join_facebook_group` - Join a Facebook group when the user asks (5/day)
+- `submit_job_input` - Resume a needs_input job
+- `list_replies` - List saved replies from a check (never loads a page)
+- `check_notifications` - Read Reddit/Facebook/LinkedIn notifications once
+- `mark_reply_read` - Mark a reply seen in Claw Post only
+- `cancel_post` - Cancel a queued, processing, or needs_input job
 - `get_upload_url` - Signed upload URL for media
 - `get_post_status` - Poll a job; returns the live post URL on success
 - `get_account_status` - Pairing and account status
+
+Notifications loop: `check_notifications` → `list_replies` → `reply_to_comment` → `mark_reply_read`.
 
 ## Troubleshooting
 
